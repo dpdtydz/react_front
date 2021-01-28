@@ -6,8 +6,11 @@ import Pricing from '../../Pricing';
 function SignUp() {
   return (
     <>
+       <Pricing />
       <HeroSection {...homeObjOne} />
+      <HeroSection {...homeObjTwo} />
       <HeroSection {...homeObjThree} />
+      <HeroSection {...homeObjFour} />
     </>
   );
 }
