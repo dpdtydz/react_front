@@ -36,7 +36,7 @@ function Navbar() {
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               <MdFingerprint className='navbar-icon' />
-              LAVISH
+              GameAtHome
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
