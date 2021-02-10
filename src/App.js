@@ -7,6 +7,7 @@ import SignUp from './components/pages/SignUp/SignUp';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/pages/Footer.js/Footer';
+import IntroJs from './components/pages/Intro.Js/Intro.js';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
       </Switch>
       <Footer />
+      <Route path='/introjs' component={IntroJs}/>
     </Router>
   );
 }

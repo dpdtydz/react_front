@@ -12,15 +12,15 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#fff', size: 64 }}>
       <div className='pricing__section'>
         <div className='pricing__wrapper'>
-          <h1 className='pricing__heading'>Pricing</h1>
+          <h1 className='pricing__heading'>문의하기</h1>
           <div className='pricing__container'>
             <Link to='/sign-up' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <FaFire />
                 </div>
-                <h3>Starter</h3>
-                <h4>$8.99</h4>
+                <h3>초급반</h3>
+                <h4>가격문의</h4>
                 <p>per month</p>
                 <ul className='pricing__container-features'>
                   <li>100 Transactions</li>
@@ -37,8 +37,8 @@ function Pricing() {
                 <div className='icon'>
                   <BsXDiamondFill />
                 </div>
-                <h3>Gold</h3>
-                <h4>$29.99</h4>
+                <h3>중급반</h3>
+                <h4>가격문의</h4>
                 <p>per month</p>
                 <ul className='pricing__container-features'>
                   <li>1000 Transactions</li>
@@ -50,13 +50,13 @@ function Pricing() {
                 </Button>
               </div>
             </Link>
-            <Link to='/sign-up' className='pricing__container-card'>
+            <Link to='/introjs' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <GiCrystalize />
                 </div>
-                <h3>Diamond</h3>
-                <h4>$99.99</h4>
+                <h3>심화반</h3>
+                <h4>가격문의</h4>
                 <p>per month</p>
                 <ul className='pricing__container-features'>
                   <li>Unlimited Transactions</li>
