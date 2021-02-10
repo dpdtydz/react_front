@@ -9,6 +9,8 @@ function Services() {
       <Pricing />
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjThree} />
+      <HeroSection {...homeObjTwo} />
+      <HeroSection {...homeObjFour} />
     </>
   );
 }
