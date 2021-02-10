@@ -44,7 +44,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                  Home
+                  홈페이지
                 </Link>
               </li>
               <li className='nav-item'>
@@ -53,7 +53,7 @@ function Navbar() {
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Services
+                  문의하기
                 </Link>
               </li>
               <li className='nav-item'>
@@ -62,7 +62,7 @@ function Navbar() {
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Products
+                  후기
                 </Link>
               </li>
               <li className='nav-btn'>
@@ -77,7 +77,7 @@ function Navbar() {
                       buttonSize='btn--mobile'
                       onClick={closeMobileMenu}
                     >
-                      SIGN UP
+                      로그인
                     </Button>
                   </Link>
                 )}
